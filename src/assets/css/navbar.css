@@ -4,8 +4,9 @@
     font-family: 'Epilogue', sans-serif;
     list-style-type: none;
     text-decoration: none;
-    color: black;
     font-size: 17px;
+    color: rgb(220, 210, 210);
+    background-color: #181818;
 }
 #container{
     display: flex;
