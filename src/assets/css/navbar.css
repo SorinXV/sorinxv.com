@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+#container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+}
+#nav-links{
+    display: flex;
+}
+#nav-links a{
+    padding: 0px 10px;
+}
+
+@media screen and (min-width: 550px){
+    #ham-menu{
+        display: none;
+    }
+} 
+@media screen and (max-width: 550px){
+    #nav-links{
+        display: none;
+    }
+} 
