@@ -19,7 +19,6 @@
 #nav-links a{
     padding: 0px 10px;
 }
-
 @media screen and (min-width: 550px){
     #ham-menu{
         display: none;
