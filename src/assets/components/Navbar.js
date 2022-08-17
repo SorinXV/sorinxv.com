@@ -6,9 +6,9 @@ export default function Navbar() {
          <div id='container'>
             <a id='logo'>Logo</a>
             <div id='nav-links'>
-                <a href="/">Home</a>
-                <a href="/projects">Projects</a>
-                <a href="/contact">Contact</a>
+                <a href="/">home</a>
+                <a href="/projects">projects</a>
+                <a href="/contact">contact</a>
             </div>
             <div id='ham-menu'>
                 menu
