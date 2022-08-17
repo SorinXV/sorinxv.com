@@ -1,9 +1,24 @@
 import Navbar from "./assets/components/Navbar";
+import Home from '../src/assets/pages/Home';
+import Projects from "./assets/pages/Projects";
+import Contact from '../src/assets/pages/Contact';
+import Footer from "./assets/components/Footer";
+import {BrowserRouter as Router, Routes, Route} from  'react-router-dom';
 
 function App() {
   return (
     <>
+       <Router>
+      <div className="App"> 
       <Navbar/>
+        <Routes>
+          <Route path='/' exact element={<Home/>} />
+          <Route path="/projects" exact element={<Projects/>}/>
+          <Route path="/contact" exact element={<Contact/>}/>
+        </Routes>
+      <Footer/>
+      </div>
+    </Router>
     </>
   );
 }
