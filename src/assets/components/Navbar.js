@@ -11,7 +11,9 @@ export default function Navbar() {
                 <a href="/contact">contact</a>
             </div>
             <div id='ham-menu'>
-                menu
+               <div className='line'></div>
+               <div className='line'></div>
+               <div className='line'></div>
             </div>
          </div>
         </>

@@ -30,3 +30,12 @@
         display: none;
     }
 } 
+#ham-menu{
+    cursor: pointer;
+}
+.line{
+    background-color: white;
+    width: 23px;
+    height: 2px;
+    margin: 5px 15px;
+}
