@@ -9,9 +9,9 @@ export default function Footer() {
     <div id="footer-container">
         <a id='footer-text'>Made by <span><a href='https://github.com/SorinXV'>SorinXV</a></span>, 2022</a>
         <div id="socialmedia-icons">
-          <a href='https://www.instagram.com/sorinxv/'><img src={instagram} alt="instagram socialmedia icon" /></a>
-          <a href="https://github.com/SorinXV"></a><img src={github} alt="github icon" />
-          <a href="https://dev.to/sorinxv"><img src={dev} alt="dev socialmedia icon" /></a>
+          <a href='https://www.instagram.com/sorinxv/'><img src={instagram} className="icon" alt="instagram socialmedia icon" /></a>
+          <a href="https://github.com/SorinXV"></a><img src={github} className="icon" alt="github icon" />
+          <a href="https://dev.to/sorinxv"><img src={dev} className="icon" alt="dev socialmedia icon" /></a>
         </div>
       </div>
     </div>
