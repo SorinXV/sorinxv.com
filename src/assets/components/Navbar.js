@@ -1,21 +1,34 @@
 import '../css/navbar.css'
 
+
 export default function Navbar() {
-    return(
-        <>
-         <div id='container'>
-            <a id='logo'>Logo</a>
-            <div id='nav-links'>
-                <a href="/">home</a>
-                <a href="/projects">projects</a>
-                <a href="/contact">contact</a>
+  return (
+    <>
+      <div className="navbar-display">
+        <a>
+          <img src="" alt="logo" className="logo-resize" />
+        </a>
+        <nav className="nav">
+            <ul className="navigation-links">
+                <li><a href="/">Home</a></li>
+                <li><a href="/projects">Projects</a></li>
+                <li><a href="/contact">Contact</a></li>
+            </ul>
+
+            <div className="hamburger">
+                <input id="menu__toggle" type="checkbox" />
+                <label className="menu__btn" for="menu__toggle">
+                <span></span>
+                </label>
+
+                <ul className="menu__box">
+                <li><a className="menu__item" href="/">Home</a></li>
+                <li><a className="menu__item" href="/projects">Projects</a></li>
+                <li><a className="menu__item" href="/contact">Contact</a></li>
+                </ul>
             </div>
-            <div id='ham-menu'>
-               <div className='line'></div>
-               <div className='line'></div>
-               <div className='line'></div>
-            </div>
-         </div>
-        </>
-    )
+        </nav>
+      </div>
+    </>
+  )
 }
