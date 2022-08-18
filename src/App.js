@@ -3,6 +3,7 @@ import Home from '../src/assets/pages/Home';
 import Projects from "./assets/pages/Projects";
 import Contact from '../src/assets/pages/Contact';
 import Footer from "./assets/components/Footer";
+import '../src/assets/css/general.css'
 import {BrowserRouter as Router, Routes, Route} from  'react-router-dom';
 
 function App() {
