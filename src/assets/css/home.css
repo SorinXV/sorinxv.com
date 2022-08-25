@@ -1,0 +1,19 @@
+#container{
+    display: flex;
+    flex-direction: column;
+}
+#title{
+    color: #1e6fd9;
+    font-weight: bold;
+}
+@media screen and (max-width: 600px){
+    #second-title{
+        font-size: 20px;
+    }
+    #title{
+        font-size: 30px;
+    }
+    #paragraph{
+        font-size: 20px;
+    }
+}
