@@ -1,42 +1,38 @@
-{
-    "SocialMedias": [
-      "https://github.com/",
-      "https://www.linkedin.com/",
-      "https://www.facebook.com/"
-    ],
-    "Projects": [
-      {
-        "projectName": "name of the project",
-        "projectDate": "22/07/21",
-        "project": [
-          {
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "team": "whatever",
-            "githubLink": "https://github.com/SorinXV"
-          }
-        ]
-      },
-      {
-        "projectName": "name of the project",
-        "projectDate": "22/07/21",
-        "project": [
-          {
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "team": "whatever",
-            "githubLink": "https://github.com/SorinXV"
-          }
-        ]
-      },
-      {
-        "projectName": "name of the project",
-        "projectDate": "22/07/21",
-        "project": [
-          {
-            "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
-            "team": "whatever",
-            "githubLink": "https://github.com/SorinXV"
-          }
-        ]
-      }
-    ]
-}
+[
+  [
+    {
+      "projectName": "name of the project",
+      "projectDate": "22/07/21",
+      "project": [
+        {
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "team": "whatever",
+          "githubLink": "https://github.com/SorinXV"
+        }
+      ]
+    },
+    {
+      "projectName": "name of the project",
+      "projectDate": "22/07/21",
+      "project": [
+        {
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "team": "whatever",
+          "githubLink": "https://github.com/SorinXV"
+        }
+      ]
+    },
+    {
+      "projectName": "name of the project",
+      "projectDate": "22/07/21",
+      "project": [
+        {
+          "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+          "team": "whatever",
+          "githubLink": "https://github.com/SorinXV"
+        }
+      ]
+    }
+
+  ]
+]
