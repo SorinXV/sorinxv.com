@@ -1,9 +1,13 @@
 * {
-    font-family: "Mukta", sans-serif;
+  font-family: 'Open Sans', sans-serif;
     list-style-type: none;
     text-decoration: none;
     margin: 0px;
     padding: 0px;
-    color: #dedede;
+    color: #000000;
     max-width: 100%;
+    
+  }
+  body{
+  background-color: white; 
   }
