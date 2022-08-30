@@ -1,13 +1,12 @@
 * {
-  font-family: 'Open Sans', sans-serif;
-    list-style-type: none;
-    text-decoration: none;
-    margin: 0px;
-    padding: 0px;
-    color: #000000;
-    max-width: 100%;
-    
-  }
-  body{
-  background-color: white; 
-  }
+  font-family: "Montserrat", sans-serif;
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  color: rgb(227, 218, 218);
+  max-width: 100%;
+}
+body {
+  background-color: #444444;
+}
