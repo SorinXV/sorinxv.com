@@ -1,8 +1,6 @@
 
 body {
   background-color: #22223b;
-  overflow: hidden;
-  
 }
 .navbar-display{
   display: flex;
@@ -134,8 +132,8 @@ body {
   }
   .navbar-display {
     display: flex;
-    justify-content: space-around;
-    margin-top: 13px;
+    justify-content: space-between;
+    margin: 13px 50px;
   }
   .nav {
     display: flex;
