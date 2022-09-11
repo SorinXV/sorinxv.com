@@ -7,13 +7,13 @@
   font-weight: bold;
 }
 #container {
-    top: 50%;
-    left: 50%;
-    padding: 0px 20px;
-    margin: 25vh 0;
-  }
+  top: 50%;
+  left: 50%;
+  padding: 0px 20px;
+  margin: 25vh 0;
+}
 /*phone*/
-@media screen and (min-width:0px){
+@media screen and (min-width: 0px) and (max-width: 601px) {
   #second-title {
     font-size: 20px;
   }
@@ -24,10 +24,15 @@
     margin-top: 3px;
     font-size: 20px;
   }
- 
+  .spiral {
+    display: none;
+  }
+  .animation {
+    display: none;
+  }
 }
 /*tablets*/
-@media screen and (min-width:601px){
+@media screen and (min-width: 601px) and (max-width: 1000px) {
   #second-title {
     font-size: 24px;
   }
@@ -38,6 +43,64 @@
     margin-top: 3px;
     font-size: 23px;
   }
-
+  .animation {
+    display: none;
+  }
+}
+@media screen and (min-width: 1000px) {
+  #second-title {
+    font-size: 24px;
+  }
+  #title {
+    font-size: 35px;
+  }
+  #paragraph {
+    margin-top: 3px;
+    font-size: 23px;
+  }
+  #container {
+    width: 60%;
+    margin: auto;
+  }
+  #page-container {
+    padding: 5% 1%;
+    display: flex;
+    align-items: center;
+    margin-top: 9rem;
+  }
+  .image {
+    margin-right: 50px;
+  }
+}
+@media screen and (min-width: 1500px) {
+  #page-container {
+    margin-top: 3rem;
+  }
 }
 /*make the next one width 750, add the image thing, maybe make it rotate like the react logo, test it*/
+.animation {
+  animation: rotation 100s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.image {
+  height: 30%;
+  width: 30%;
+  margin-right: 70px;
+}
+.not-selectable {
+  -webkit-user-select: none; /* Safari */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+  -webkit-user-drag: none;
+}
