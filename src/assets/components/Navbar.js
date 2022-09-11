@@ -12,7 +12,6 @@ export default function Navbar() {
             <ul className="navigation-links">
                 <li><a href="/">Home</a></li>
                 <li><a href="/blog">Blog</a></li>
-                <li><a href="/projects">Projects</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>
 
@@ -25,7 +24,6 @@ export default function Navbar() {
                 <ul className="menu__box">
                 <li><a className="menu__item" href="/">Home</a></li>
                 <li><a className="menu__item" href="/blog">Blog</a></li>
-                <li><a className="menu__item" href="/projects">Projects</a></li>
                 <li><a className="menu__item" href="/contact">Contact</a></li>
                 </ul>
             </div>
