@@ -8,6 +8,18 @@
 .paragraph{
   font-size: 1.3rem;
 }
+.small-title{
+  font-size: 1.4rem;
+  color: #e9e7e7;
+  font-weight: bold;
+}
+.date{
+  font-size: 1.2rem;
+  color: #eee9e9;
+}
+.description{
+  font-size: 1.2rem;
+}
 /*phone*/
 @media screen and (min-width: 0px) and (max-width: 601px) {
   #title{
