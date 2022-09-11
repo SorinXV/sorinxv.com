@@ -1,3 +1,4 @@
+import React from 'react'
 import instagram from '../images/socials/instagram.png'
 import github from '../images/socials/github.png'
 import dev from '../images/socials/dev.png'

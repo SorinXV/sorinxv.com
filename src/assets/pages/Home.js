@@ -1,3 +1,4 @@
+import React from 'react'
 import '../css/home.css'
 import '../css/text.css'
 import home from '../jsonfiles/home.json'

@@ -1,3 +1,4 @@
+import React from 'react'
 import '../css/blog.css'
 import '../css/text.css'
 import blog from '../jsonfiles/blog.json'
