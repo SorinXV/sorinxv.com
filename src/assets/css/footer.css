@@ -5,6 +5,7 @@
   position: fixed;
   bottom: 0px;
   width: 100%;
+  background-color: #444444;
 }
 #footer-text {
   font-size: 0.9rem;
