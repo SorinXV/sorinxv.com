@@ -1,0 +1,45 @@
+[
+  {
+    "articleName": "Welcome",
+    "articleDate": "",
+    "description": "Hello, in this page you can find out what I've been up to recently (tech-related). Not only projects but also hackathons and events I joined. (well, atleast if I remember to update this once in a while)",
+    "tech" : "",
+    "githubLink": ""
+  },
+  {
+    "articleName": "Dumb ass hackathon title",
+    "articleDate": "08/2022",
+    "description": "This website is ass on desktop but looks sick on mobile. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+    "tech" : "Stack used: React, nodejs & mongoDB",
+    "githubLink": "https://github.com/SorinXV"
+  },
+  {
+    "articleName": "Some event or shit",
+    "articleDate": "08/2022",
+    "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+    "tech" : "Stack used: React, nodejs & mongoDB",
+    "githubLink": "https://github.com/SorinXV"
+  },
+  {
+    "articleName": "Some event or shit",
+    "articleDate": "08/2022",
+    "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+    "tech" : "Stack used: React, nodejs & mongoDB",
+    "githubLink": "https://github.com/SorinXV"
+  },
+  {
+    "articleName": "Some event or shit",
+    "articleDate": "08/2022",
+    "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+    "tech" : "Stack used: React, nodejs & mongoDB",
+    "githubLink": "https://github.com/SorinXV"
+  },
+  {
+    "articleName": "Some event or shit",
+    "articleDate": "08/2022",
+    "description": "Lorem Ipsum è un testo segnaposto utilizzato nel settore della tipografia e della stampa. Lorem Ipsum è considerato il testo segnaposto standard sin dal sedicesimo secolo, quando un anonimo tipografo prese una cassetta di caratteri e li assemblò per preparare un testo campione.",
+    "tech" : "Stack used: React, nodejs & mongoDB",
+    "githubLink": "https://github.com/SorinXV"
+  }
+  
+]
