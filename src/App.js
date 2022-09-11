@@ -1,7 +1,6 @@
 import Navbar from "./assets/components/Navbar";
 import Home from '../src/assets/pages/Home';
 import Blog from '../src/assets/pages/Blog';
-import Projects from "./assets/pages/Projects";
 import Contact from '../src/assets/pages/Contact';
 import Footer from "./assets/components/Footer";
 import '../src/assets/css/general.css'
