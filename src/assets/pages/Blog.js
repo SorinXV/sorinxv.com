@@ -8,12 +8,10 @@ export default function Blog() {
       {blog.map((blog) => {
         return (
           <div className='container'>
-            
             <a className='small-title ' id='margin-top'>{blog.articleName}</a>
             <a className='date'>{blog.articleDate}</a>
             <a className='description'>{blog.description}</a>
             <a className='date' id='color'>{blog.tech}</a>
-            
           </div>
         )
       })}
