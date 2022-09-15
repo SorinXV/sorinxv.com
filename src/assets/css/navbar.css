@@ -81,7 +81,7 @@ body {
     width: 300px;
     height: 100%;
     padding: 80px 0;
-    background-color: #828282;
+    background-color: #474646;
     transition-duration: 0.25s;
   }
   .menu__item {
@@ -95,7 +95,7 @@ body {
   }
   .menu__item:hover,
   .menu__item a {
-    background-color: #cfd8dc;
+    background-color: #8f9091;
     color: #151e24;
   }
 }
