@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/home.css'
 import '../css/text.css'
+import '../css/general.css'
 import home from '../jsonfiles/home.json'
 import spiral from '../images/spiral-photo.png'
 
