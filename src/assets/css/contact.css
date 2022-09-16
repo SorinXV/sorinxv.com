@@ -1,0 +1,32 @@
+input{
+    box-sizing: border-box;
+    background-color: #444444;
+    border: 1px solid rgb(214, 206, 206);
+    border-radius: 5px;
+    height: 35px;
+    font-size: 16px;
+    width: 300px;
+    margin-top: 13px;
+    padding: 0px 20px;
+}
+::placeholder{
+    color: white;
+}
+#mb{
+    margin: 50px 0px;
+}
+
+/*phone*/
+@media screen and (min-width: 0px) and (max-width: 601px) {
+    #mail-container{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    #submit{
+        padding: 0px 0px;
+        width: 30%;
+    }
+
+  }
