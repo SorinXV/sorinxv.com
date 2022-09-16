@@ -37,27 +37,18 @@
 .image {
   height: 30%;
   width: 30%;
-
 }
-#page-container{
+#page-container {
   padding-right: 20px;
 }
-.not-selectable {
-  -webkit-user-select: none; /* Safari */
-  -moz-user-select: none; /* Firefox */
-  -ms-user-select: none; /* IE10+/Edge */
-  user-select: none; /* Standard */
-  -webkit-user-drag: none;
-}
 @media screen and (min-width: 1280px) {
- #page-container{
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  padding-top: 50px ;
- }
- #container{
-  width: 40%;
- }
-  
+  #page-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 50px;
+  }
+  #container {
+    width: 40%;
+  }
 }
