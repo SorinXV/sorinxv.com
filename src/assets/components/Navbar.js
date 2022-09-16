@@ -7,9 +7,7 @@ export default function Navbar() {
   return (
     <>
       <div className="navbar-display">
-        <a>
           <img src={logo} alt="logo" id="logo-resize" />
-        </a>
         <nav className="nav">
             <ul className="navigation-links">
                 <li><a href="/">Home</a></li>

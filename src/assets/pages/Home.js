@@ -12,9 +12,9 @@ export default function Home() {
         return (
           <div id="page-container">
             <div id="container">
-              <a id="second-title">{home.secondTitle}</a>
-              <a id="title">{home.title}</a>
-              <a className="paragraph">{home.paragraph}</a>
+              <a href="#" id="second-title">{home.secondTitle}</a>
+              <a href="#" id="title">{home.title}</a>
+              <a href="#" className="paragraph">{home.paragraph}</a>
             </div>
               <img src={spiral} className='animation image not-selectable' alt="spiral"/>            
             </div>

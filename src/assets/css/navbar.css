@@ -54,6 +54,8 @@ body {
     cursor: pointer;
     z-index: 1;
     right: 20px;
+    width: 20px;
+    height: 20px;
   }
   .menu__btn > span,
   .menu__btn > span::before,
@@ -148,4 +150,8 @@ body {
   .navigation-links a {
     margin: 0px 7px;
   }
+}
+input{
+  width: 20px;
+  height: 20px;
 }
