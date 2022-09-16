@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/navbar.css'
+import '../css/general.css'
 import logo from '../images/logo.png'
 
 export default function Navbar() {
@@ -16,16 +17,16 @@ export default function Navbar() {
                 <li><a href="/contact">Contact</a></li>
             </ul>
 
-            <div className="hamburger">
-                <input id="menu__toggle" type="checkbox" />
-                <label className="menu__btn" for="menu__toggle">
+            <div className="hamburger not-selectable">
+                <input id="menu__toggle" type="checkbox" className='not-selectable' />
+                <label  className="menu__btn not-selectable" for="menu__toggle">
                 <span></span>
                 </label>
 
-                <ul className="menu__box">
-                <li><a className="menu__item" href="/">Home</a></li>
-                <li><a className="menu__item" href="/blog">Blog</a></li>
-                <li><a className="menu__item" href="/contact">Contact</a></li>
+                <ul className="menu__box not-selectable">
+                <li><a className="menu__item not-selectable" href="/">Home</a></li>
+                <li><a className="menu__item not-selectable" href="/blog">Blog</a></li>
+                <li><a className="menu__item not-selectable" href="/contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
