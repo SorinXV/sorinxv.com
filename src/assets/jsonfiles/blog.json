@@ -2,21 +2,21 @@
   {
     "articleName": "Welcome",
     "articleDate": "",
-    "description": "Hello, in this page you can find out what I've been up to recently (tech-related). Not only projects but also hackathons and events I joined. (well, atleast if I remember to update this once in a while)",
+    "description": "On this page you will find out about my recent activities (tech-related), not only my projects, but also hackathons and events I have attended (if I remember to keep this updated.)",
     "tech" : "",
     "githubLink": ""
   },
   {
-    "articleName": "Discord Spam Bot",
+    "articleName": "Detective Hammer",
     "articleDate": "09/2022",
-    "description": "Detective hammer is a public discord bot that allows people to moderate their own discord server. It's purpose is to detect spam links and bad words and delete them, It's a scalable projects and it's also customizable, you can choose your own spam words. (still a work in progress) ",
+    "description": "Detective Hammer is a bot that allows people to moderate their own Discord servers. It detects spam links and deletes them. The bot is also customizable, you can choose your own spam words. ",
     "tech" : "Built with Discord.js",
     "githubLink": "https://github.com/SorinXV"
   },
   {
     "articleName": "Sorinxv.com",
     "articleDate": "August-September/2022",
-    "description": "Sorinxv.com is my current portfolio, since it's a personal project i've been working on by my own. A really important thing about this website is it's performance and search engine optimization. This website allowed me to learn more about servers since it's hosted on a private server",
+    "description": "Sorinxv.com is my current portfolio. Since it's a personal project I've been working on my own, this website allowed me to learn more about performance, search engine optimization and servers, since it's my first website hosted on a private server",
     "tech" : "Built with Reactjs, no css libraries",
     "githubLink": "https://github.com/SorinXV"
   }
